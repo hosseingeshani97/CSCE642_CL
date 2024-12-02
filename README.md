@@ -38,6 +38,6 @@ Before getting started, ensure the following are installed on your system:
 
    With the CARLA simulator running, execute the main code in the environment:
    ```bash
-   python main.py
+   python PPO_CNN_DiscreteVersion375Percent.py --s 10 --epsilonInitial 1 --discount .15 --throttle .5 --preview true --numEpisodes 1 -l y -q 20000
    ```
    
