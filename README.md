@@ -42,4 +42,6 @@ Before getting started, ensure the following are installed on your system:
    python PPO_CNN_DiscreteVersion375Percent.py --s 10 --epsilonInitial 1 --discount .15 --throttle .5 --preview true --numEpisodes 1 -l y -q 20000
    ```
    If you want Curriculum learning activated, change the curriculumLearning = False (line 236) to True
+
+   Make sure the simulator is running and loaded before running the main code. When you do run the main code, it may take some time to load. Eventually the simulator will spawn you on the road. You must take a hard left and back turn and travel towards the ocean to get to where the agent is running.
    
