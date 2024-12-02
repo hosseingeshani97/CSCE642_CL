@@ -22,22 +22,20 @@ Before getting started, ensure the following are installed on your system:
 
    ```bash
    conda env create -f environment.yml -n CL_env
-
+   ```
 Activate the environment:
    ```bash
    conda activate CL_env
-   
+   ```
 
-Running the CARLA Simulator
-
-    Start the CARLA Simulator
-
-    Open a separate terminal and navigate to your CARLA installation directory. Run the simulator:
-
+Start the CARLA Simulator
+Open a separate terminal and navigate to your CARLA installation directory. Run the simulator:
+   ```bash
     ./CarlaUE4.sh
-
+   ```
 Running the Main Code
-
 With the CARLA simulator running, execute the main code in the environment:
-
+   ```bash
 python main.py
+   ```
+   
