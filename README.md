@@ -24,8 +24,9 @@ Before getting started, ensure the following are installed on your system:
    conda env create -f environment.yml -n CL_env
 
 Activate the environment:
-
-conda activate CL_env
+   ```bash
+   conda activate CL_env
+   
 
 Running the CARLA Simulator
 
