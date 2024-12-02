@@ -28,12 +28,14 @@ Activate the environment:
    conda activate CL_env
    ```
 
-Start the CARLA Simulator
+2. **Start the CARLA Simulator**
+
 Open a separate terminal and navigate to your CARLA installation directory. Run the simulator:
    ```bash
     ./CarlaUE4.sh
    ```
-Running the Main Code
+3. **Running the Main Code**
+
 With the CARLA simulator running, execute the main code in the environment:
    ```bash
 python main.py
