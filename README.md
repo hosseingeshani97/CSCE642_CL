@@ -12,6 +12,7 @@ Before getting started, ensure the following are installed on your system:
 - **[Conda](https://docs.conda.io/en/latest/miniconda.html)**: For managing the environment.
 - **CARLA Simulator**: [Download CARLA](https://github.com/carla-simulator/carla/blob/master/Docs/download.md) and follow the setup instructions. We downloaded Carla0.9.15
 - Using Python 3.9
+- Using Windows 11
 
 ---
 
@@ -33,7 +34,7 @@ Before getting started, ensure the following are installed on your system:
 
    Open a separate anaconda prompt terminal and navigate to your CARLA installation directory. Run the simulator:
    ```bash
-    ./CarlaUE4
+    CarlaUE4
    ```
 3. **Running the Main Code**
    With the CARLA simulator running, in our VS code terminal with the same python interpreter/environment activated, execute the main code in the environment:
