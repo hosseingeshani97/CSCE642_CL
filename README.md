@@ -1,7 +1,42 @@
 # CSCE642_CL
-Install Carla
-Create and activate conda environment from environment.yml file.
-$ conda env create -f environment.yml -n CL_env
+# CARLA Setup and Usage Guide
 
-run CARLA simulator in a different terminal. 
-run the main code.
+This guide explains how to set up and run the CARLA simulator along with the associated codebase.
+
+---
+
+## Prerequisites
+
+Before getting started, ensure the following are installed on your system:
+
+- **[Conda](https://docs.conda.io/en/latest/miniconda.html)**: For managing the environment.
+- **CARLA Simulator**: [Download CARLA](https://carla.org/) and follow the setup instructions.
+
+---
+
+## Environment Setup
+
+1. **Create and Activate Conda Environment**
+
+   Use the provided `environment.yml` file to create the required Conda environment. Run the following command:
+
+   ```bash
+   conda env create -f environment.yml -n CL_env
+
+Activate the environment:
+
+conda activate CL_env
+
+Running the CARLA Simulator
+
+    Start the CARLA Simulator
+
+    Open a separate terminal and navigate to your CARLA installation directory. Run the simulator:
+
+    ./CarlaUE4.sh
+
+Running the Main Code
+
+With the CARLA simulator running, execute the main code in the environment:
+
+python main.py
